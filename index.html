@@ -8,23 +8,75 @@
 </head>
 
 <body>
+
     <header id="header">
-        <a href="index.html"><img src="images/home-24px.svg" alt="Home"></a>
-        <ul>
-            <li><a href="#historia">HISTÓRIA</a></li>
-            <li><a href="#html">HTML</a></li>
-            <li><a href="#css">CSS</a></li>
-            <li><a href="#js">JAVASCRIPT</a></li>
-            <li><a href="#php">PHP</a></li>
-            <li><a href="#nodejs">NODE.js</a></li>
-        </ul>
+
+        <div class="logo-home">
+            <a href="index.html"><img src="images/home-24px.svg" alt="Home"></a>
+        </div>
+        
+        <div class="list-menu"> 
+
+            <div class="menu-historia">     
+            <a href="#historia">HISTÓRIA</a>
+            </div>
+
+            <div class="menu-dropdown">
+                <button class="dropbutton">LINGUAGENS</button>
+                <div class="dropdown-content">
+                    <ul>
+                        <li><a href="#html">HTML</a></li>
+                        <li><a href="#css">CSS</a></li>
+                        <li><a href="#js">JAVASCRIPT</a></li>
+                        <li><a href="#php">PHP</a></li>
+                        <li><a href="#nodejs">NODE.js</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="menu-contato">
+                <a href="#contato">CONTATO</a>
+            </div>
+
+        </div>
     </header>
 
         <section id="historia">
-            <img src="i" alt="historia"> <h1>História</h1>
+            <img src="images/history_edu-24px.svg" alt="historia"> <h1>História</h1>
             <p>
-                <strong></strong> 
-                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">Saiba mais</a>
+                <strong> Antes de 1940</strong><br>
+                As linguagens de programação são anteriores ao advento do primeiro computador moderno. De início, as linguagens eram, apenas, códigos.
+                
+                Durante um período de nove meses entre 1842-1843, Ada Lovelace traduziu as memórias do matemático italiano Luigi Menabrea sobre a mais nova máquina proposta por Charles Babbage, a sua máquina analítica.[1] Com o artigo, ela anexou uma série de anotações que especificavam em completo detalhe um método para calcular números de Bernoulli com a máquina, reconhecido por alguns historiadores como o primeiro programa de computador do mundo. Mas alguns biógrafos debatem a medida de suas contribuições originais versus as de seu mérito.
+                
+                O tear de Jacquard, inventado em 1801, usava furos em cartões perfurados para representar os movimentos do braço do tear ao realizar costuras, a fim de gerar padrões decorativos automaticamente.
+                
+                Herman Hollerith percebeu que poderia codificar a informação, em cartões perfurados, quando ele observou que o condutor de trens controlava a presença dos titulares dos bilhetes de trem com a posição dos furos no bilhete. Hollerith, então, começou a codificar os dados do censo de 1890 em cartões perfurados.
+                
+                Os primeiros códigos para computador eram especializados segundo as aplicações. Nas primeiras décadas do século XX, os cálculos numéricos eram baseados em números decimais. Eventualmente, se percebeu que a lógica podia ser representada com números, tão bem como com as palavras. Por exemplo, Alonzo Church foi capaz de expressar o cálculo lambda de uma maneira formalizada. A máquina de Turing era uma abstração do funcionamento da máquina de uma fita de marcação, por exemplo, em uso em empresas de telefonia. No entanto, ao contrário do cálculo lambda, os código elaborados por Turing não serviam como uma base para linguagens de alto nível - a sua utilização principal era na análise rigorosa da complexidade algorítmica.
+                
+                Como muitos "primeiros" na história, a primeira linguagem de programação moderna é difícil de ser identificada. No início, as restrições do hardware definiam a linguagem. Cartões perfurados dispunham de até 80 colunas, mas algumas das colunas tinham que ser usadas para um número de seqüência de cada cartão. Fortran incluía algumas palavras-chave que eram as mesmas palavras em Inglês, como "IF" (se), "GOTO" (vá para) e "CONTINUE" (continue). O uso de um tambor magnético para a memória significava que os programas de computador também tinham que ser intercalados com as rotações do tambor. Assim, os programas eram mais dependentes do hardware do que hoje.
+                
+                Para algumas pessoas, a resposta depende de quanta energia e legibilidade humana são necessárias antes que o status de "linguagem de programação" seja concedido. Os teares de Jacquard e a máquina diferencial de Charles Babbage, ambos tinham linguagens simples e extremamente limitadas para descrever as ações que estas máquinas deviam executar. Alguns podem até alegar que as perfurações de cartões para pianos possam ser vistas como uma linguagem de propósito específico, embora não destinadas ao consumo humano.
+
+                <a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_das_linguagens_de_programa%C3%A7%C3%A3o" target="_blank">continuação (fonte:wikipedia.org)</a><br>
+                
+                Década de 1990: A Era da Internet
+                A década de 1990 não viu nenhuma novidade fundamental, mas a recombinação e maturação das ideias antigas. Uma filosofia de grande importância era a produtividade do programador. Muitas linguagens com "aplicações de desenvolvimento rápido" (RAD) surgiram, geralmente vindo com um IDE, coleta de lixo, e eram descendentes de linguagens mais antigas. Todas essas linguagens foram orientadas a objeto. Entre estas estavam a Object Pascal, Visual Basic, e C#. Java era uma linguagem mais conservadora, que também incluiu a coleta de lixo e recebeu muita atenção. Mais radicais e inovadoras do que as línguas RAD foram as novas linguagens de scripting. Estas não descenderam diretamente das outras linguagens e contaram com sintaxes novas e incorporação mais liberal de novas funcionalidades. Muitos consideram essas linguagens de scripting mais produtivas do que até mesmo as linguagens RAD, mas muitas vezes, por causa da facilidade com que pequenos programas podem ser escritos e mantidos. No entanto, linguagens de scripting vieram a ser mais proeminentes usadas em conexão com a web.<br>
+                
+                Algumas linguagens importantes que foram desenvolvidas durante este período incluem:<br>
+                
+                1990 - Haskell<br>
+                1991 - Python<br>
+                1991 - Java<br>
+                1993 - Ruby<br>
+                1993 - Lua<br>
+                1994 - ANSI Common Lisp<br>
+                1995 - JavaScript<br>
+                1995 - PHP<br>
+                2000 - C#<br>
+                2008 - JavaFX Script<br>
+                <a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_das_linguagens_de_programa%C3%A7%C3%A3o" target="_blank">Saiba mais</a>
             </p>    
         </section>
 
@@ -76,6 +128,14 @@
                 O Node.js (ambiente de execução Javascript no servidor) foi implementado baseado no interpretador V8 JavaScript Engine (interpretador de JavaScript em C++ com código aberto do Google, utilizado no Chrome), com desenvolvimento mantido pela fundação Node.js em parceria com a Linux Foundation.
                 <a href="https://nodejs.org/en/" target="_blank">Saiba mais</a>
             </p>
+        </section>
+
+        <section id="contato">
+            <img src="images/assignment-24px.svg" alt="contato"> <h1>Contato</h1>
+            <p>
+                <strong></strong> 
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">Saiba mais</a>
+            </p>    
         </section>
 
     <footer>
