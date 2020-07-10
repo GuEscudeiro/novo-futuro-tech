@@ -131,6 +131,13 @@ header img:hover {
 }
 /* ----------------------------------------------------------   */
 
+img#img-fundo {
+    display: flex;
+    margin: auto;
+    padding: 5px 0px;
+}
+
+/* ----------------------------------------------------------   */
 section {
     width: 100%;
     margin: 20px 0px;
@@ -145,6 +152,9 @@ section {
 section img {
     width: 80px;
     padding: 10px;
+}
+section h1 {
+    font-size: 40px;
 }
 
 section p {
