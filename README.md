@@ -7,6 +7,7 @@ Tecnologias:
 
 º HTML / CSS
   (Construa uma página HTML com CSS, e o tema deve ser de sua própria escolha.
+  
   A página deve possuir esses itens:
   - Começar com um header.
   - Os conteúdos devem ser separados por sections.(Deve haver no mínimo 5 sections de sua escolha.)
@@ -18,6 +19,7 @@ Tecnologias:
 º JAVASCRIPT
   Crie um formulário de contato no site desenvolvido anteriormente no curso de HTML5 e CSS3 ou Bootstrap.
   O formulário deve mostrar os dados em qualquer lugar da própria página definido por você.
+  
   Conteúdos para facilitar:
   - Formulário em HTML
   - Capturar valor de um input
