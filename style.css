@@ -2,6 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
 
 * {
+    margin: 0px;
+    padding: 0px;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300px;
+    /* box-sizing: border-box; */
     font-family: 'Roboto Slab', serif;
 }
 
@@ -10,7 +17,8 @@ html {
 }
 
 body {
-    width: 1200px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;   
 }
 
@@ -18,10 +26,18 @@ a {
     text-decoration: none;
     color: #4d4d4d;
 }
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
 
 /*  ------------------------------------------------------------  */
 header {
     width: 100%;
+    max-width: 1200px;
     background: #aaaaaa;
     margin-top: 20px;
     display: flex;
@@ -90,7 +106,7 @@ header img:hover {
     display: none;
     position: absolute;
     background-color: #808080;
-    min-width: 188.23px;
+    min-width: 188.233px;
     z-index: 1;
     border-radius: 0px 0px 8px 8px;
 }
@@ -137,6 +153,69 @@ img#img-fundo {
     padding: 5px 0px;
 }
 
+/* ------------------------------------------------------------ */
+.slideshow-container {
+    width: 8vw;
+    border-radius: 100%;
+    margin: auto;
+}
+
+.logos {
+    width: 85%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.logos ul {
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    width: 900%;
+    animation: galeria 20s infinite;
+    animation-direction: normal;
+    animation-timing-function: step-start;
+   
+}
+
+.logos li {
+    list-style: none;
+    width: 100%;
+    padding: 15px;
+}
+
+.logos img {
+    width: 100%;
+}
+
+@keyframes galeria {
+
+     0% {margin-left: 0;}
+    10% {margin-left: 0;}
+    
+    10% {margin-left: -100%;}
+    20% {margin-left: -100%;}
+
+    20% {margin-left: -200%;}
+    30% {margin-left: -200%;}
+
+    30% {margin-left: -300%;}
+    40% {margin-left: -300%;}
+
+    40% {margin-left: -400%;}
+    50% {margin-left: -400%;}
+
+    50% {margin-left: -500%;}
+    60% {margin-left: -500%;}
+
+    60% {margin-left: -600%;}
+    70% {margin-left: -600%;}
+
+    70% {margin-left: -700%;}
+    80% {margin-left: -700%;}
+
+    80% {margin-left: -800%;}
+    90% {margin-left: -800%;}
+}
 /* ----------------------------------------------------------   */
 section {
     width: 100%;
@@ -239,8 +318,6 @@ button.top:hover {
 }
 
 button img {
-    padding: 5px;
+    display: block;
 }
-
-
 
